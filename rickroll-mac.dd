@@ -14,6 +14,8 @@ DELAY 500
 # Run command to fetch and play the Rick Astley video from YouTube
 STRING open "https://www.google.com"
 ENTER
-DELAY 500
+
+DELAY 1000
+
 STRING https://www.youtube.com/watch?v=xvFZjo5PgG0
 ENTER
