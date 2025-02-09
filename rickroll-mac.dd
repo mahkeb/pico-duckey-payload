@@ -9,7 +9,6 @@ ENTER
 DELAY 500
 STRING open "https://www.google.com"
 ENTER
-DELAY 5000
-STRING h                                                                                                 you
+DELAY 500
 STRING https://www.youtube.com/watch?v=xvFZjo5PgG0
 ENTER
