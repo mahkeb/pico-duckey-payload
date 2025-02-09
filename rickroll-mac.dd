@@ -12,5 +12,7 @@ ENTER
 DELAY 500
 
 # Run command to fetch and play the Rick Astley video from YouTube
-STRING afplay $(curl -s "https://www.youtube.com/watch?v=dQw4w9WgXcQ" | grep -o 'watch\?v=[^"]*' | sed 's/watch\?v=/https:\/\/www.youtube.com\/watch?v=/' | xargs youtube-dl -g | head -n 1 | sed 's/\&.*//')
+STRING open "https://www.google.com"
+ENTER
+STRING https://www.youtube.com/watch?v=xvFZjo5PgG0
 ENTER
