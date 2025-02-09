@@ -1,31 +1,62 @@
-DELAY 500
+REM Description: Opens Safari and redirects to YouTube rickroll vid  
+REM Volume is turned up and proceeds to be pressed so you cannot turn the Vol down
 
+
+REM Title: Rick Roll 
+REM Author: NARSTY
+REM Target: MacOS 
+REM Version: 1.0
+REM Category: Prank
+
+ID 05ac:021e Apple:Keyboard
+DELAY 1000
 GUI SPACE
-DELAY 500
-STRING Terminal
+DELAY 200
+STRING terminal
+DELAY 1000
 ENTER
-DELAY 500
-
-# Open a new terminal window
-STRING open -a Terminal
+DELAY 1000
+STRING open -a Safari 'https://www.youtube.com/watch?v=eGci8By2G8s' 
+DELAY 1000
 ENTER
+DELAY 1000
+F12
 DELAY 500
-
-# Run command to fetch and play the Rick Astley video from YouTube
-STRING curl -s "https://www.youtube.com/watch?v=dQw4w9WgXcQ" | grep -o 'watch\?v=[^"]*' | sed 's/watch\?v=/https:\/\/www.youtube.com\/watch?v=/' | xargs open
-ENTER
-
+F12
 DELAY 500
-
-# Ensure the browser window is in focus (this step might need adjustment based on the default browser)
-GUI TAB
+F12
 DELAY 500
-GUI TAB
-
-# Play the video
-ENTER
-
-# Close the terminal after some delay to not show the command used
-DELAY 5000
-STRING exit
-ENTER
+F12
+DELAY 500
+F12
+DELAY 500
+F12
+DELAY 500
+F12
+DELAY 500
+F12
+DELAY 500
+F12
+DELAY 500
+F12
+DELAY 500
+F12
+DELAY 500
+F12
+DELAY 500
+F12
+DELAY 500
+F12
+DELAY 500
+F12
+DELAY 500
+F12
+DELAY 500
+F12
+DELAY 500
+F12
+DELAY 500
+F12
+DELAY 500
+F12
+DELAY 500
